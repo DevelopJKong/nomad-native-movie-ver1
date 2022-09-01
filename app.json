@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "nomad_native_tv_ver1",
+    "slug": "nomad_native_tv_ver1",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "nomad_native_tv_ver1"
+}
