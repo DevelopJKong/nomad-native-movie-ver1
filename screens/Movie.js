@@ -1,11 +1,11 @@
-import { View, Text } from "react-native";
+import { TouchableOpacity, Text } from "react-native";
 import React from "react";
 
-const Movie = () => {
+const Movie = ({ navigation: { navigate } }) => {
   return (
-    <View>
-      <Text>Movie</Text>
-    </View>
+    <TouchableOpacity onPress={() => navigate("Stack", { screen: "Three" })}>
+      <Text style={{ color: "white" }}>Movie</Text>
+    </TouchableOpacity>
   );
 };
 

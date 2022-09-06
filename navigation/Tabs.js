@@ -28,7 +28,6 @@ const Tabs = () => {
           tabBarLabelStyle: {
             marginTop:-5,
             fontSize: 12,
-            fontWeight: 500
           }
         }}
       >
@@ -37,7 +36,6 @@ const Tabs = () => {
           component={Movie}
           options={{
             tabBarIcon: ({ focused, color, size }) => {
-              console.log(focused, color, size);
               return <Ionicons name="film-outline" color={color} size={size} />;
             },
           }}
@@ -47,7 +45,6 @@ const Tabs = () => {
           component={Tv}
           options={{
             tabBarIcon: ({ focused, color, size }) => {
-              console.log(focused, color, size);
               return <Ionicons name="tv-outline" color={color} size={size} />;
             },
           }}
@@ -57,7 +54,6 @@ const Tabs = () => {
           component={Search}
           options={{
             tabBarIcon: ({ focused, color, size }) => {
-              console.log(focused, color, size);
               return <Ionicons name="search-outline" color={color} size={size} />;
             },
           }}
