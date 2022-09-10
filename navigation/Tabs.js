@@ -26,9 +26,9 @@ const Tabs = () => {
             color: isDark ? "white" : BLACK_COLOR,
           },
           tabBarLabelStyle: {
-            marginTop:-5,
+            marginTop: -5,
             fontSize: 12,
-          }
+          },
         }}
       >
         <Tab.Screen
