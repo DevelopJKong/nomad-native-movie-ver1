@@ -8,7 +8,6 @@ import { darkTheme, lightTheme } from "./styled";
 
 export default function App() {
   const isDark = useColorScheme() === "dark";
-  console.log(isDark);
   return (
     <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
       <NavigationContainer>

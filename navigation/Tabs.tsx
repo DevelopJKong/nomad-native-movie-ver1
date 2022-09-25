@@ -13,7 +13,7 @@ const Tabs = () => {
   const isDark = useColorScheme();
   return (
     <>
-      <StatusBar backgroundColor="#1e272e" style={{ color: "white" }} />
+      <StatusBar backgroundColor="#1e272e" />
       <Tab.Navigator
         screenOptions={{
           tabBarStyle: { backgroundColor: isDark ? BLACK_COLOR : "white" },

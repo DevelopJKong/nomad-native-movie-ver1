@@ -10,9 +10,9 @@ const Btn = styled.View`
 `;
 
 const Title = styled.Text`
-  color: ${(props)=> props.theme.textColor};
+  color: ${(props) => props.theme.textColor};
 `;
-const Movie = ({ navigation: { navigate } }) => {
+const Movie = ({ navigation: { navigate } }: any) => {
   return (
     <Btn onPress={() => navigate("Stack", { screen: "Three" })}>
       <Title>Movie</Title>
